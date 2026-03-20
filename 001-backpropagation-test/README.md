@@ -1,0 +1,3 @@
+# A Backpropagation Test
+
+Having read the first six chapters of Simon Prince's 'Understanding Neural Networks', and discussed the topic with AI, this is my first experiment with backpropagation in code. As I was trying to understand the mathematics in practise, I have tried to make it clear to myself what exactly the code is doing, at the cost of computational efficiency. In theory, the 3-3-3-1 network I used could be replaced with another, without requiring a change to the backpropagation code, provided there was at least one hidden layer. Parameter initialisation is fairly random, and gradient descent is non-stochastic.
