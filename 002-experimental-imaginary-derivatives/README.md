@@ -1,0 +1,5 @@
+# Experimental Imaginary Derivatives
+
+Recently, I have been thinking about how derivatives typically utilise limits or, in practise, small finite changes, when no better method is available for the particular use case. I realised that rather than using minute real changes, which inevitably result in error, it was possible to use the imaginary unit (see an explanatory notebook [here](Imaginary_Derivatives.ipynb)) and thus (theoretically) eliminate all inaccuracy for quadratics and linear functions (including piecewise ones). I implement this instead of backpropagation [here](imaginary_gradient_test.py). The model has to be run for every individual weight and bias, making this computationally much less efficient than the standard method, but I thought it an interesting experiment.
+
+A few days after implementing this, I discovered that similar concepts already exist in mathematics, including [dual number theory](https://en.wikipedia.org/wiki/Dual_number). Though I'd heard of this, I knew practically nothing about it.
